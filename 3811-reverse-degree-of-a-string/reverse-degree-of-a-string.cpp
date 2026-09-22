@@ -6,7 +6,7 @@ public:
         int revDeg = 0;
 
         for(int i=0;i<n;i++){
-            revDeg += (i+1)*(26 - (s[i] - 'a'));
+            revDeg += (i+1)*('z' - s[i] + 1);
         }
 
         return revDeg;
