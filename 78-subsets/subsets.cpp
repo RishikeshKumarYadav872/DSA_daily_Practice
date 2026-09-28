@@ -13,8 +13,7 @@ public:
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int>ans;
-        vector<vector<
-        int>>finalans;
+        vector<vector<int>>finalans;
         helper(nums,ans,finalans,0);
 
         return finalans;
